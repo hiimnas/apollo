@@ -1,0 +1,182 @@
+@import url('https://use.fontawesome.com/releases/v6.3.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-family: 'Raleway';
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    width: 80vw;
+    overflow-x: hidden;
+}
+
+header,
+section,
+footer {
+    background-color: #EFEFEF;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: xx-large;
+}
+
+p {
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    padding: 20px 3vw 0 10vw;
+}
+
+header nav {
+    position: fixed;
+    right: 2vw;
+}
+
+.menu-icon {
+    background-color: transparent;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-icon i {
+    margin-left: 6px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 24vw;
+}
+
+.hero-img {
+    width: 60vw;
+}
+
+.vert-line {
+    border-left: 3px solid #A8A8A8;
+    height: 62px;
+}
+
+section {
+    padding: 24px 18vw 24px 10vw;
+}
+
+.intro {
+    display: flex;
+}
+
+.intro-text {
+    width: 42vw;
+    margin-left: 50px;
+}
+
+.intro-text>div {
+    display: flex;
+}
+
+.hor-line {
+    height: 50%;
+    border-bottom: 3px solid #B2B2B2;
+    width: 56px;
+    margin-right: 20px;
+}
+
+.intro-text p {
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.link {
+    background-color: #909090;
+    text-decoration: none;
+    color: white;
+    padding: 5px 8px;
+    margin-right: 10px;
+}
+
+.top {
+    background-image: url('./images/thumb-1.jpeg') !important;
+    height: 600px;
+}
+
+.featured-primary {
+    display: flex;
+}
+
+.featured-primary img {
+    width: 48vw;
+    margin: 5vw 10vw;
+}
+
+.featured-secondary {
+    display: grid;
+    grid-template-columns: 26vw 26vw 26vw;
+    gap: 2vw;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.featured-secondary img {
+    max-width: 100%;
+}
+
+.featured-secondary .highlight-img {
+    position: relative;
+    max-width: 48vw;
+    left: -10vw;
+}
+
+.contact {
+    text-align: center;
+    padding-right: 32vw;
+    padding-left: 12vw;
+    min-height: 420px;
+    margin-bottom: 0;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+.contact-form input {
+    padding: 8px;
+    border: 1px solid #ADADAD;
+    border-radius: 3px;
+}
+
+.contact-form textarea {
+    grid-column: span 2;
+    min-height: 160px;
+    padding: 12px;
+    border: 1px solid #ADADAD;
+    border-radius: 3px;
+}
+
+.contact-form .contact-button {
+    grid-column: span 2;
+    background-color: #111111;
+    padding: 8px;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer {
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 20vw;
+}
